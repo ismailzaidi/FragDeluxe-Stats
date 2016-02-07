@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">FragDeluxe Stats</string>
+    <string name="action_settings">Settings</string>
+    <string name="about_info_1"><![CDATA[<b>FragDeluxe</b> is a gaming community currently based on Counter Strike: Global Offensive. We as a community aim to provide some of the best gameservers around for our players
+]]></string>
+    <string name="viewStats">VIEW STATISTICS</string>
+    <string name="action_item_1">Home</string>
+    <string name="action_item_2">Weapon</string>
+    <string name="action_item_3">Map</string>
+    <string name="action_item_4">Compare</string>
+    <string name="action_item_5">Leaderboard</string>
+    <string name="action_item_6">About</string>
+    <string name="action_item_11">Skin Changer</string>
+    <string name="action_item_7">Support</string>
+    <string name="action_item_8">Logout</string>
+    <string name="action_item_9">Sync</string>
+    <string name="action_item_10">Servers</string>
+    <string name="about_info_2">Powerful servers with an outstanding community !</string>
+    <string name="about_info_item_1"><![CDATA[Our community means everything to us, that\'s why we build environments where <b>you</b> want to be.]]></string>
+    <string name="login_activity"><![CDATA[Not found, try <u>steam login</u>]]></string>
+    <string name="about_info_item_2"><![CDATA[We like to code everything from scratch to provide a unique experience for our community]]></string>
+    <string name="about_info_itemx_3"><![CDATA[We make sure our servers are running on the best hardware and connection that\'s around. ]]></string>
+    <string name="about_community_item_1">CURRENT STEAM MEMBERS</string>
+    <string name="about_community_item_2">CURRENT ONLINE STEAM MEMBERS</string>
+    <string name="about_community_item_3">CURRENT PLAYERS ON ALL OF OUR SERVERS</string>
+    <string name="about_community_item_4">OUT OF POSSIBLE SLOTS</string>
+    <string name="about_community_subitem">Our servers delivered by our team with years of experience and a passion for development</string>
+    <string name="about_credit_1"><![CDATA[Thank you
+    <a href="http://ismailzd.co.uk/">@IsmailZD</a> for coding the application and broadcasting it live on stream
+    ]]></string>
+    <string name="about_credit_2"><![CDATA[Thank you <a href="https://twitter.com/nofsy">@Nofsy</a> for designing the application]]></string>
+    <string name="about_credit_3">We\'d also like to thank you, the community. Without you would\'t be what we are today. Thank you to the people who helped create this application</string>
+    <string-array name="weapon_list">
+        <item>AK-47,ak47</item>
+        <item>AUG,aug</item>
+        <item>AWP,awp</item>
+        <item>Bayonet,bayonet</item>
+        <item>Butterfly Knife,knife_butterfly</item>
+        <item>CZ75A,cz75a</item>
+        <item>Desert Eagle,deagle</item>
+        <item>Dual Berettas,elite</item>
+        <item>FAMAS,famas</item>
+        <item>Five-SeveN,fiveseven</item>
+        <item>Molotov,molotov</item>
+        <item>Flashbang Grenade,flashbang</item>
+        <item>Flip Knife,knife_flip</item>
+        <item>Galil AR,galilr</item>
+        <item>Glock-18,glock</item>
+        <item>Gut Knife,knife_gut</item>
+        <item>HE Grenade,hegrenade</item>
+        <item>Huntsman Knife,knife_tactical</item>
+        <item>Karambit,knife_karambit</item>
+        <item>Knife,knife</item>
+        <item>M249,m249</item>
+        <item>M4A1-S,m4a1_silencer</item>
+        <item>M4A4,m4a1</item>
+        <item>M9 Bayonet,knife_m9_bayonet</item>
+        <item>MAC-10,mac10</item>
+        <item>MAG-7,mag7</item>
+        <item>MP7,mp7</item>
+        <item>MP9,mp9</item>
+        <item>Negev,negev</item>
+        <item>Nova,nova</item>
+        <item>P2000,p2000_white</item>
+        <item>P90,p90</item>
+        <item>PP-Bizon,bizon</item>
+        <item>R8 Revolver,revolver</item>
+        <item>Sawed-Off,sawedoff</item>
+        <item>SG 553,sg556</item>
+        <item>Shadow Daggers,knife_push</item>
+        <item>SSG 08,ssg08</item>
+        <item>Tec-9,tec9</item>
+        <item>UMP-45,ump45</item>
+        <item>USP-S,usp_silencer</item>
+        <item>XM1014,xm1014</item>
+        <item>Zeus x27,taser</item>
+    </string-array>
+
+</resources>

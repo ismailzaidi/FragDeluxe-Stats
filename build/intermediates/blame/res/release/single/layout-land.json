@@ -1,0 +1,70 @@
+[
+    {
+        "merged": "C:\\Users\\Yusuf\\Desktop\\FragDeluxeStats\\app\\build\\intermediates\\res\\merged\\release\\layout-land\\weapon_view.xml",
+        "source": "C:\\Users\\Yusuf\\Desktop\\FragDeluxeStats\\app\\src\\main\\res\\layout-land\\weapon_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yusuf\\Desktop\\FragDeluxeStats\\app\\build\\intermediates\\res\\merged\\release\\layout-land\\progress_content_friend.xml",
+        "source": "C:\\Users\\Yusuf\\Desktop\\FragDeluxeStats\\app\\src\\main\\res\\layout-land\\progress_content_friend.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yusuf\\Desktop\\FragDeluxeStats\\app\\build\\intermediates\\res\\merged\\release\\layout-land\\main_menu_fragment.xml",
+        "source": "C:\\Users\\Yusuf\\Desktop\\FragDeluxeStats\\app\\src\\main\\res\\layout-land\\main_menu_fragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yusuf\\Desktop\\FragDeluxeStats\\app\\build\\intermediates\\res\\merged\\release\\layout-land\\compare_statistics_item.xml",
+        "source": "C:\\Users\\Yusuf\\Desktop\\FragDeluxeStats\\app\\src\\main\\res\\layout-land\\compare_statistics_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yusuf\\Desktop\\FragDeluxeStats\\app\\build\\intermediates\\res\\merged\\release\\layout-land\\online_playeritem.xml",
+        "source": "C:\\Users\\Yusuf\\Desktop\\FragDeluxeStats\\app\\src\\main\\res\\layout-land\\online_playeritem.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yusuf\\Desktop\\FragDeluxeStats\\app\\build\\intermediates\\res\\merged\\release\\layout-land\\custom_tab.xml",
+        "source": "C:\\Users\\Yusuf\\Desktop\\FragDeluxeStats\\app\\src\\main\\res\\layout-land\\custom_tab.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yusuf\\Desktop\\FragDeluxeStats\\app\\build\\intermediates\\res\\merged\\release\\layout-land\\compare_fragment.xml",
+        "source": "C:\\Users\\Yusuf\\Desktop\\FragDeluxeStats\\app\\src\\main\\res\\layout-land\\compare_fragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yusuf\\Desktop\\FragDeluxeStats\\app\\build\\intermediates\\res\\merged\\release\\layout-land\\player_item.xml",
+        "source": "C:\\Users\\Yusuf\\Desktop\\FragDeluxeStats\\app\\src\\main\\res\\layout-land\\player_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yusuf\\Desktop\\FragDeluxeStats\\app\\build\\intermediates\\res\\merged\\release\\layout-land\\progress_content.xml",
+        "source": "C:\\Users\\Yusuf\\Desktop\\FragDeluxeStats\\app\\src\\main\\res\\layout-land\\progress_content.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yusuf\\Desktop\\FragDeluxeStats\\app\\build\\intermediates\\res\\merged\\release\\layout-land\\compare_view.xml",
+        "source": "C:\\Users\\Yusuf\\Desktop\\FragDeluxeStats\\app\\src\\main\\res\\layout-land\\compare_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yusuf\\Desktop\\FragDeluxeStats\\app\\build\\intermediates\\res\\merged\\release\\layout-land\\compare_content.xml",
+        "source": "C:\\Users\\Yusuf\\Desktop\\FragDeluxeStats\\app\\src\\main\\res\\layout-land\\compare_content.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yusuf\\Desktop\\FragDeluxeStats\\app\\build\\intermediates\\res\\merged\\release\\layout-land\\progress_compare.xml",
+        "source": "C:\\Users\\Yusuf\\Desktop\\FragDeluxeStats\\app\\src\\main\\res\\layout-land\\progress_compare.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yusuf\\Desktop\\FragDeluxeStats\\app\\build\\intermediates\\res\\merged\\release\\layout-land\\about_dialog.xml",
+        "source": "C:\\Users\\Yusuf\\Desktop\\FragDeluxeStats\\app\\src\\main\\res\\layout-land\\about_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yusuf\\Desktop\\FragDeluxeStats\\app\\build\\intermediates\\res\\merged\\release\\layout-land\\map_view.xml",
+        "source": "C:\\Users\\Yusuf\\Desktop\\FragDeluxeStats\\app\\src\\main\\res\\layout-land\\map_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yusuf\\Desktop\\FragDeluxeStats\\app\\build\\intermediates\\res\\merged\\release\\layout-land\\friend_dialog.xml",
+        "source": "C:\\Users\\Yusuf\\Desktop\\FragDeluxeStats\\app\\src\\main\\res\\layout-land\\friend_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yusuf\\Desktop\\FragDeluxeStats\\app\\build\\intermediates\\res\\merged\\release\\layout-land\\content_main.xml",
+        "source": "C:\\Users\\Yusuf\\Desktop\\FragDeluxeStats\\app\\src\\main\\res\\layout-land\\content_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Yusuf\\Desktop\\FragDeluxeStats\\app\\build\\intermediates\\res\\merged\\release\\layout-land\\compare_weapon_layout.xml",
+        "source": "C:\\Users\\Yusuf\\Desktop\\FragDeluxeStats\\app\\src\\main\\res\\layout-land\\compare_weapon_layout.xml"
+    }
+]

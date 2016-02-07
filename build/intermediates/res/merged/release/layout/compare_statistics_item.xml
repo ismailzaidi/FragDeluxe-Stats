@@ -1,0 +1,558 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.fragdeluxestats.customviews.CompareStatisticsView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/sideMenuButton"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="50dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/sideMenuButton"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="50dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:orientation="vertical">
+
+            <com.fragdeluxestats.customviews.TextStyleView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Points"
+                android:textColor="@android:color/white"
+                android:textSize="12sp"
+                app:textType="normal" />
+
+            <com.fragdeluxestats.customviews.TextStyleView
+                android:id="@+id/comparePoints"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:gravity="center"
+                android:text="1"
+                android:textColor="@android:color/white"
+                android:textSize="14sp"
+                app:textType="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:orientation="vertical">
+
+            <com.fragdeluxestats.customviews.TextStyleView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Rank"
+                android:textColor="@android:color/white"
+                android:textSize="12sp"
+                app:textType="normal" />
+
+            <com.fragdeluxestats.customviews.TextStyleView
+                android:id="@+id/compareRank"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:gravity="center"
+                android:text="1"
+                android:textColor="@android:color/white"
+                android:textSize="14sp"
+                app:textType="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:orientation="vertical">
+
+            <com.fragdeluxestats.customviews.TextStyleView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="K/D RATIO"
+                android:textColor="@android:color/white"
+                android:textSize="12sp"
+                app:textType="normal" />
+
+            <com.fragdeluxestats.customviews.TextStyleView
+                android:id="@+id/compareKDA"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:gravity="center"
+                android:text="1.1"
+                android:textColor="@android:color/white"
+                android:textSize="14sp"
+                app:textType="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:orientation="vertical">
+
+            <com.fragdeluxestats.customviews.TextStyleView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="KILLS"
+                android:textColor="@android:color/white"
+                android:textSize="12sp"
+                app:textType="normal" />
+
+            <com.fragdeluxestats.customviews.TextStyleView
+                android:id="@+id/compareKills"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:gravity="center"
+                android:text="126,786"
+                android:textColor="@android:color/white"
+                android:textSize="14sp"
+                app:textType="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:orientation="vertical">
+
+            <com.fragdeluxestats.customviews.TextStyleView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="DEATHS"
+                android:textColor="@android:color/white"
+                android:textSize="12sp"
+                app:textType="normal" />
+
+            <com.fragdeluxestats.customviews.TextStyleView
+                android:id="@+id/compareDeaths"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:gravity="center"
+                android:text="126,786"
+                android:textColor="@android:color/white"
+                android:textSize="14sp"
+                app:textType="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:orientation="vertical">
+
+            <com.fragdeluxestats.customviews.TextStyleView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="TIME PLAYED"
+                android:textColor="@android:color/white"
+                android:textSize="12sp"
+                app:textType="normal" />
+
+            <com.fragdeluxestats.customviews.TextStyleView
+                android:id="@+id/compareTimePlayed"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:gravity="center"
+                android:text="333h"
+                android:textColor="@android:color/white"
+                android:textSize="14sp"
+                app:textType="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.fragdeluxestats.customviews.TextStyleView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Favorite Weapon"
+                android:textColor="@android:color/white"
+                android:textSize="12sp"
+                app:textType="normal" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <!--<TextView-->
+                    <!--android:id="@+id/compareFavoriteWeaponName"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginTop="2dp"-->
+                    <!--android:gravity="center"-->
+                    <!--android:text="AK47"-->
+                    <!--android:textColor="@android:color/white"-->
+                    <!--android:textSize="14sp"-->
+                    <!-- />-->
+
+                    <ImageView
+                        android:id="@+id/compareFavoriteWeaponImage"
+                        android:layout_width="40dp"
+                        android:layout_height="match_parent"
+                        android:adjustViewBounds="true" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <com.fragdeluxestats.customviews.TextStyleView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:gravity="center"
+                        android:text="KILLS"
+                        android:textColor="@android:color/white"
+                        android:textSize="14sp"
+                        app:textType="normal" />
+
+                    <com.fragdeluxestats.customviews.TextStyleView
+                        android:id="@+id/compareFavoriteWeaponKills"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:gravity="center"
+                        android:text="454"
+                        android:textColor="@android:color/white"
+                        android:textSize="14sp"
+                        app:textType="bold" />
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:orientation="vertical">
+
+            <com.fragdeluxestats.customviews.TextStyleView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="HEADSHOT %"
+                android:textColor="@android:color/white"
+                android:textSize="12sp"
+                app:textType="normal" />
+
+            <com.fragdeluxestats.customviews.TextStyleView
+                android:id="@+id/compareHeadShot"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:gravity="center"
+                android:text="45.65%"
+                android:textColor="@android:color/white"
+                android:textSize="14sp"
+                app:textType="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:orientation="vertical">
+
+            <com.fragdeluxestats.customviews.TextStyleView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="WIN"
+                android:textColor="@android:color/white"
+                android:textSize="12sp"
+                app:textType="normal" />
+
+            <com.fragdeluxestats.customviews.TextStyleView
+                android:id="@+id/compareWins"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:gravity="center"
+                android:text="51%"
+                android:textColor="@android:color/white"
+                android:textSize="14sp"
+                app:textType="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:orientation="vertical">
+
+            <com.fragdeluxestats.customviews.TextStyleView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="ACCURACY"
+                android:textColor="@android:color/white"
+                android:textSize="12sp"
+                app:textType="normal" />
+
+            <com.fragdeluxestats.customviews.TextStyleView
+                android:id="@+id/compareAccuracy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:gravity="center"
+                android:text="20.65%"
+                android:textColor="@android:color/white"
+                android:textSize="14sp"
+                app:textType="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:orientation="vertical">
+
+            <com.fragdeluxestats.customviews.TextStyleView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Suicides"
+                android:textColor="@android:color/white"
+                android:textSize="12sp"
+                app:textType="normal" />
+
+            <com.fragdeluxestats.customviews.TextStyleView
+                android:id="@+id/compareSuicides"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:gravity="center"
+                android:text="20.65%"
+                android:textColor="@android:color/white"
+                android:textSize="14sp"
+                app:textType="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Assists"
+                android:textColor="@android:color/white"
+                android:textSize="12sp" />
+
+            <com.fragdeluxestats.customviews.TextStyleView
+                android:id="@+id/compareAssists"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:gravity="center"
+                android:text="454"
+                android:textColor="@android:color/white"
+                android:textSize="14sp"
+                app:textType="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:orientation="vertical">
+
+            <com.fragdeluxestats.customviews.TextStyleView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Assisted"
+                android:textColor="@android:color/white"
+                android:textSize="12sp"
+                app:textType="normal" />
+
+            <com.fragdeluxestats.customviews.TextStyleView
+                android:id="@+id/compareAssisted"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:gravity="center"
+                android:text="454"
+                android:textColor="@android:color/white"
+                android:textSize="14sp"
+                app:textType="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:orientation="vertical">
+
+            <com.fragdeluxestats.customviews.TextStyleView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Kill Streak"
+                android:textColor="@android:color/white"
+                android:textSize="12sp"
+                app:textType="normal" />
+
+            <com.fragdeluxestats.customviews.TextStyleView
+                android:id="@+id/compareKillStreak"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:gravity="center"
+                android:text="454"
+                android:textColor="@android:color/white"
+                android:textSize="14sp"
+                app:textType="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:orientation="vertical">
+
+            <com.fragdeluxestats.customviews.TextStyleView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Death Streak"
+                android:textColor="@android:color/white"
+                android:textSize="12sp"
+                app:textType="normal" />
+
+            <com.fragdeluxestats.customviews.TextStyleView
+                android:id="@+id/compareDeathStreak"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:gravity="center"
+                android:text="454"
+                android:textColor="@android:color/white"
+                android:textSize="14sp"
+                app:textType="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:orientation="vertical">
+
+            <com.fragdeluxestats.customviews.TextStyleView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Rounds Won"
+                android:textColor="@android:color/white"
+                android:textSize="12sp"
+                app:textType="normal" />
+
+            <com.fragdeluxestats.customviews.TextStyleView
+                android:id="@+id/compareRoundsWon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:gravity="center"
+                android:text="454"
+                android:textColor="@android:color/white"
+                android:textSize="14sp"
+                app:textType="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:orientation="vertical">
+
+            <com.fragdeluxestats.customviews.TextStyleView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Rounds Survived"
+                android:textColor="@android:color/white"
+                android:textSize="12sp"
+                app:textType="normal" />
+
+            <com.fragdeluxestats.customviews.TextStyleView
+                android:id="@+id/compareRoundsSurvived"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:gravity="center"
+                android:text="454"
+                android:textColor="@android:color/white"
+                android:textSize="14sp"
+                app:textType="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:orientation="vertical">
+
+            <com.fragdeluxestats.customviews.TextStyleView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Rounds Lost"
+                android:textColor="@android:color/white"
+                android:textSize="12sp"
+                app:textType="normal" />
+
+            <com.fragdeluxestats.customviews.TextStyleView
+                android:id="@+id/compareRoundsLost"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:gravity="center"
+                android:text="454"
+                android:textColor="@android:color/white"
+                android:textSize="14sp"
+                app:textType="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+</com.fragdeluxestats.customviews.CompareStatisticsView>

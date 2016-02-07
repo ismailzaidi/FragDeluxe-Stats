@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/secondryColor"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.mikhaellopez.circularprogressbar.CircularProgressBar
+            android:id="@+id/progressbar"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            app:background_progressbar_color="@color/secondryColor"
+            app:background_progressbar_width="2dp"
+            app:progressbar_color="@android:color/white"
+            app:progressbar_width="2dp" />
+        <com.fragdeluxestats.customviews.TextStyleView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="3dp"
+            android:drawablePadding="5dp"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Loading..."
+            android:textColor="@android:color/white"
+            android:textSize="12sp"
+            app:textType="bold" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:stretchColumns="*">
+
+            <TableRow>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/serverImageView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/server_icon_dark" />
+
+                    <com.fragdeluxestats.customviews.TextStyleView
+                        android:id="@+id/serverTextView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="3dp"
+                        android:drawablePadding="5dp"
+                        android:gravity="center"
+                        android:text="Servers"
+                        android:textColor="@color/profilecolor"
+                        android:textSize="12sp"
+                        app:textType="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/statsImageView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/stats_icon_dark" />
+
+                    <com.fragdeluxestats.customviews.TextStyleView
+                        android:id="@+id/statsTextView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="3dp"
+                        android:drawablePadding="5dp"
+                        android:gravity="center"
+                        android:text="statistics"
+                        android:textColor="@color/profilecolor"
+                        android:textSize="12sp"
+                        app:textType="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/weaponsImageView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/glock_icon_dark" />
+
+                    <com.fragdeluxestats.customviews.TextStyleView
+                        android:id="@+id/weaponsTextView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="3dp"
+                        android:drawablePadding="5dp"
+                        android:gravity="center"
+                        android:text="weapons"
+                        android:textColor="@color/profilecolor"
+                        android:textSize="12sp"
+                        app:textType="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/mapsImageView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/map_icon_dark" />
+
+                    <com.fragdeluxestats.customviews.TextStyleView
+                        android:id="@+id/mapsTextView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="3dp"
+                        android:drawablePadding="5dp"
+                        android:gravity="center"
+                        android:text="maps"
+                        android:textColor="@color/profilecolor"
+                        android:textSize="12sp"
+                        app:textType="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/rankImageView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/trophy_icon_dark" />
+
+                    <com.fragdeluxestats.customviews.TextStyleView
+                        android:id="@+id/rankTextView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="3dp"
+                        android:drawablePadding="5dp"
+                        android:gravity="center"
+                        android:text="Ranks"
+                        android:textColor="@color/profilecolor"
+                        android:textSize="12sp"
+                        app:textType="bold" />
+                </LinearLayout>
+
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+</LinearLayout>

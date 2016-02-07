@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CircularProgressBar"><attr format="integer" name="progress"/><attr format="color" name="progressbar_color"/><attr format="color" name="background_progressbar_color"/><attr format="dimension" name="progressbar_width"/><attr format="dimension" name="background_progressbar_width"/></declare-styleable>
+    <!-- From: file:/I:/mlopez/Android/Dev/AndroidStudioProjects/CircularProgressBar/circularprogressbar/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="default_background_stroke_width">3dp</dimen>
+    <dimen name="default_stroke_width">7dp</dimen>
+</resources>

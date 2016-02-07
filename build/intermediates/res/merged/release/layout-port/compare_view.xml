@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/secondryColor"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/profilecolor"
+        android:padding="10dp">
+
+        <com.fragdeluxestats.customviews.TextStyleView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:text="Compare"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textSize="14sp"
+            app:textType="normal" />
+
+        <com.fragdeluxestats.customviews.TextStyleView
+            android:id="@+id/userCounter"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:text="0/2"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textSize="12sp"
+            app:textType="normal" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/userIdEditText"
+            style="@style/EditTextfragdeluxe"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_weight="2"
+            android:drawablePadding="40dp"
+            android:hint="Search username "
+            android:inputType="text"
+            android:maxLength="32"
+            android:singleLine="true"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/white"
+            android:textCursorDrawable="@null"
+            android:textSize="10sp">
+            <requestFocus />
+        </EditText>
+
+        <com.balysv.materialripple.MaterialRippleLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            app:mrl_rippleAlpha="0.1"
+            app:mrl_rippleColor="#ffffff"
+            app:mrl_rippleDelayClick="true"
+            app:mrl_rippleDimension="0dp"
+            app:mrl_rippleDuration="50"
+            app:mrl_rippleFadeDuration="10"
+            app:mrl_rippleHover="true"
+            app:mrl_rippleInAdapter="false"
+            app:mrl_rippleOverlay="true"
+            app:mrl_ripplePersistent="false"
+            app:mrl_rippleRoundedCorners="0dp">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:adjustViewBounds="true"
+                android:layout_gravity="end"
+                android:gravity="center"
+                android:padding="10dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/search_icon"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true" />
+        </com.balysv.materialripple.MaterialRippleLayout>
+
+
+
+    </RelativeLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_margin="5dp" />
+
+    <com.balysv.materialripple.MaterialRippleLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:mrl_rippleAlpha="0.1"
+        app:mrl_rippleColor="#ffffff"
+        app:mrl_rippleDelayClick="true"
+        app:mrl_rippleDimension="0dp"
+        app:mrl_rippleDuration="50"
+        app:mrl_rippleFadeDuration="10"
+        app:mrl_rippleHover="true"
+        app:mrl_rippleInAdapter="false"
+        app:mrl_rippleOverlay="true"
+        app:mrl_ripplePersistent="false"
+        app:mrl_rippleRoundedCorners="0dp">
+
+        <Button
+            android:id="@+id/compareButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/profilecolor"
+            android:text="Compare"
+            android:textColor="@android:color/white" />
+    </com.balysv.materialripple.MaterialRippleLayout>
+
+</LinearLayout>

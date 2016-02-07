@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    api-level="17"
+    density="xxhdpi"
+    format="1"
+    timestamp="1453906596801"
+    verifier="FIELD_REMOVED" >
+
+    <task
+        name="javac"
+        duration="697" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="19" />
+    <task
+        name="verifier"
+        duration="2" />
+
+    <artifact
+        location="C:\Users\Yusuf\Desktop\FragDeluxeStats\app\build\outputs\apk\app-debug.apk"
+        type="MAIN" />
+
+    <build
+        timestamp="1453892393472"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="C:\Users\Yusuf\Desktop\FragDeluxeStats\app\build\outputs\apk\app-debug.apk"
+            type="MAIN" />
+    </build>
+    <build
+        timestamp="1453906596801"
+        verifier="FIELD_REMOVED" >
+        <artifact
+            location="C:\Users\Yusuf\Desktop\FragDeluxeStats\app\build\outputs\apk\app-debug.apk"
+            type="MAIN" />
+    </build>
+
+</instant-run>

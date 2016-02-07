@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.fragdeluxestats.customviews.WeaponView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/secondryColor">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dp"
+        android:weightSum="2"
+        tools:background="@color/secondryColor">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <com.fragdeluxestats.customviews.TextStyleView
+                android:id="@+id/weaponName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="KILLS"
+                android:textColor="@android:color/white"
+                android:textSize="8sp"
+                app:textType="normal" />
+            <ImageView
+                android:id="@+id/weaponImage"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:weightSum="3">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <com.fragdeluxestats.customviews.TextStyleView
+                    android:id="@+id/textView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="KILLS"
+                    android:textColor="@android:color/white"
+                    android:textSize="8sp"
+                    app:textType="normal" />
+
+                <com.fragdeluxestats.customviews.TextStyleView
+                    android:id="@+id/weaponKills"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="4584"
+                    android:textColor="@android:color/white"
+                    android:textSize="8sp"
+                    app:textType="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <com.fragdeluxestats.customviews.TextStyleView
+                    android:id="@+id/textView13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="HEADSHOTS"
+                    android:textColor="@android:color/white"
+                    android:textSize="8sp"
+                    app:textType="normal" />
+
+                <com.fragdeluxestats.customviews.TextStyleView
+                    android:id="@+id/weaponHeadshots"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="33689"
+                    android:textColor="@android:color/white"
+                    android:textSize="8sp"
+                    app:textType="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <com.fragdeluxestats.customviews.TextStyleView
+                    android:id="@+id/textView29"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ACCURACY"
+                    android:textColor="@android:color/white"
+                    android:textSize="8sp"
+                    app:textType="normal" />
+
+                <com.fragdeluxestats.customviews.TextStyleView
+                    android:id="@+id/weaponAccuracy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="8.5%"
+                    android:textColor="@android:color/white"
+                    android:textSize="8sp"
+                    app:textType="bold" />
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+</com.fragdeluxestats.customviews.WeaponView>
+

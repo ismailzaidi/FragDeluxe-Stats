@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="secondryColor">#1b2833</color>
+    <color name="colorPrimary">#436380</color>
+    <color name="colorPrimaryDark">@color/profilecolor</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="tabColor">#6494bf</color>
+    <color name="sideMenucolor">#3c5973</color>
+    <color name="sideMenuButton">#354f65</color>
+    <color name="buttoncolor">#436380</color>
+    <color name="profilecolor">#2f4559</color>
+    <color name="greenbutton">#438056</color>
+    <color name="greybackground">#848A84</color>
+    <color name="redbuttoncolor">#804344</color>
+    <color name="terroritColor">#d96025</color>
+    <color name="counterterroritColor">#2575d9</color>
+    <color name="colorPrimarylight">#E61b2833</color>
+    <color name="buttoncolorlight">#80436380</color>
+    <color name="buttoncolorDark">#D9436380</color>
+
+    <color name="shadedcolordark">#D9253544</color>
+
+    <color name="black_light">#D9000000</color>
+    <color name="white">#80ffffff</color>
+</resources>

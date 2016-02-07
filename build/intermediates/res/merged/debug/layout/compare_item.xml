@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.fragdeluxestats.customviews.CompareItem xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_margin="1dp"
+    card_view:cardCornerRadius="1dp"
+    card_view:cardElevation="2dp"
+    card_view:cardPreventCornerOverlap="false"
+    card_view:cardUseCompatPadding="true">
+
+    <com.balysv.materialripple.MaterialRippleLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:mrl_rippleAlpha="0.1"
+        app:mrl_rippleColor="#ffffff"
+        app:mrl_rippleDelayClick="true"
+        app:mrl_rippleDimension="0dp"
+        app:mrl_rippleDuration="50"
+        app:mrl_rippleFadeDuration="10"
+        app:mrl_rippleHover="true"
+        app:mrl_rippleInAdapter="false"
+        app:mrl_rippleOverlay="true"
+        app:mrl_ripplePersistent="false"
+        app:mrl_rippleRoundedCorners="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:id="@+id/layoutManager"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/profilecolor"
+                    android:orientation="vertical">
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            android:background="@color/secondryColor"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+                            <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                                android:id="@+id/compareAvatarImage"
+                                android:layout_width="70dp"
+                                android:layout_height="70dp"
+                                android:layout_alignParentStart="true"
+                                android:layout_alignParentTop="true"
+                                android:layout_gravity="center"
+                                app:civ_border_color="@color/greenbutton"
+                                app:civ_border_width="2dp" />
+                            <com.fragdeluxestats.customviews.TextStyleView
+                                android:id="@+id/compareName"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="2dp"
+                                android:gravity="center"
+                                tools:text="Sean Gares"
+                                android:textColor="@android:color/white"
+                                android:textSize="12sp"
+                                app:textType="bold" />
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="5dp"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:id="@+id/compareCountryImage"
+                                    android:layout_width="15dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:adjustViewBounds="true"
+                                    tools:src="@drawable/gb" />
+
+                                <com.fragdeluxestats.customviews.TextStyleView
+                                    android:id="@+id/compareCountryName"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="5dp"
+                                    android:gravity="center"
+                                    tools:text="United Kingdom"
+                                    android:textColor="@android:color/white"
+                                    android:textSize="8sp"
+                                    app:textType="normal" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </FrameLayout>
+                </LinearLayout>
+
+            </FrameLayout>
+        </LinearLayout>
+    </com.balysv.materialripple.MaterialRippleLayout>
+</com.fragdeluxestats.customviews.CompareItem>
+

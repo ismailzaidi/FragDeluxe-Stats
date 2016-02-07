@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="ProfileImageView">
+        <attr name="tintColor" format="color"/>
+        <attr name="blurRadius" format="float"/>
+        <attr name="scaleFactor" format="integer"/>
+    </declare-styleable>
+    <declare-styleable name="TextStyleView">
+        <attr name="textType" format="string"/>
+    </declare-styleable>
+</resources>

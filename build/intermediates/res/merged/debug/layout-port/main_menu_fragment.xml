@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="5dp"
+    android:orientation="vertical"
+    android:weightSum="3">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <com.balysv.materialripple.MaterialRippleLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:mrl_rippleAlpha="0.1"
+                app:mrl_rippleBackground="#FFFFFF"
+                app:mrl_rippleColor="#ffffff"
+                app:mrl_rippleDelayClick="true"
+                app:mrl_rippleDimension="0dp"
+                app:mrl_rippleDuration="50"
+                app:mrl_rippleFadeDuration="10"
+                app:mrl_rippleHover="true"
+                app:mrl_rippleInAdapter="false"
+                app:mrl_rippleOverlay="true"
+                app:mrl_ripplePersistent="false"
+                app:mrl_rippleRoundedCorners="0dp">
+
+                <LinearLayout
+                    android:id="@+id/serverListButton"
+                    style="@android:style/Widget.Button"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/sideMenuButton"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/server_icon_white" />
+
+                    <com.fragdeluxestats.customviews.TextStyleView xmlns:app="http://schemas.android.com/apk/res-auto"
+                        style="@style/menu_text_style"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:text="Servers"
+                        app:textType="bold" />
+
+
+                </LinearLayout>
+            </com.balysv.materialripple.MaterialRippleLayout>
+
+            <com.balysv.materialripple.MaterialRippleLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:mrl_rippleAlpha="0.1"
+                app:mrl_rippleBackground="#FFFFFF"
+                app:mrl_rippleColor="#ffffff"
+                app:mrl_rippleDelayClick="true"
+                app:mrl_rippleDimension="0dp"
+                app:mrl_rippleDuration="50"
+                app:mrl_rippleFadeDuration="10"
+                app:mrl_rippleHover="true"
+                app:mrl_rippleInAdapter="false"
+                app:mrl_rippleOverlay="true"
+                app:mrl_ripplePersistent="false"
+                app:mrl_rippleRoundedCorners="0dp">
+
+                <LinearLayout
+                    android:id="@+id/statisticsListButton"
+                    style="@android:style/Widget.Button"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/profilecolor"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/stats_icon_white" />
+
+                    <com.fragdeluxestats.customviews.TextStyleView xmlns:app="http://schemas.android.com/apk/res-auto"
+                        style="@style/menu_text_style"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:text="Statistics"
+                        app:textType="bold" />
+
+
+                </LinearLayout>
+            </com.balysv.materialripple.MaterialRippleLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <com.balysv.materialripple.MaterialRippleLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:mrl_rippleAlpha="0.1"
+                app:mrl_rippleBackground="#FFFFFF"
+                app:mrl_rippleColor="#ffffff"
+                app:mrl_rippleDelayClick="true"
+                app:mrl_rippleDimension="0dp"
+                app:mrl_rippleDuration="50"
+                app:mrl_rippleFadeDuration="10"
+                app:mrl_rippleHover="true"
+                app:mrl_rippleInAdapter="false"
+                app:mrl_rippleOverlay="true"
+                app:mrl_ripplePersistent="false"
+                app:mrl_rippleRoundedCorners="0dp">
+
+                <LinearLayout
+                    android:id="@+id/weaponListButton"
+                    style="@android:style/Widget.Button"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/profilecolor"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/glock_icon_white" />
+
+                    <com.fragdeluxestats.customviews.TextStyleView xmlns:app="http://schemas.android.com/apk/res-auto"
+                        style="@style/menu_text_style"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:text="Weapons"
+                        app:textType="bold" />
+
+
+                </LinearLayout>
+            </com.balysv.materialripple.MaterialRippleLayout>
+
+            <com.balysv.materialripple.MaterialRippleLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:mrl_rippleAlpha="0.1"
+                app:mrl_rippleBackground="#FFFFFF"
+                app:mrl_rippleColor="#ffffff"
+                app:mrl_rippleDelayClick="true"
+                app:mrl_rippleDimension="0dp"
+                app:mrl_rippleDuration="50"
+                app:mrl_rippleFadeDuration="10"
+                app:mrl_rippleHover="true"
+                app:mrl_rippleInAdapter="false"
+                app:mrl_rippleOverlay="true"
+                app:mrl_ripplePersistent="false"
+                app:mrl_rippleRoundedCorners="0dp">
+
+                <LinearLayout
+                    android:id="@+id/mapListButton"
+                    style="@android:style/Widget.Button"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/sideMenuButton"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/map_icon_white" />
+
+                    <com.fragdeluxestats.customviews.TextStyleView xmlns:app="http://schemas.android.com/apk/res-auto"
+                        style="@style/menu_text_style"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:text="Maps"
+                        app:textType="bold" />
+
+
+                </LinearLayout>
+            </com.balysv.materialripple.MaterialRippleLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <com.balysv.materialripple.MaterialRippleLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:mrl_rippleAlpha="0.1"
+                app:mrl_rippleBackground="#FFFFFF"
+                app:mrl_rippleColor="#ffffff"
+                app:mrl_rippleDelayClick="true"
+                app:mrl_rippleDimension="0dp"
+                app:mrl_rippleDuration="50"
+                app:mrl_rippleFadeDuration="10"
+                app:mrl_rippleHover="true"
+                app:mrl_rippleInAdapter="false"
+                app:mrl_rippleOverlay="true"
+                app:mrl_ripplePersistent="false"
+                app:mrl_rippleRoundedCorners="0dp">
+
+                <LinearLayout
+                    android:id="@+id/topListButton"
+                    style="@android:style/Widget.Button"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/sideMenuButton"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/trophy_icon_white" />
+
+                    <com.fragdeluxestats.customviews.TextStyleView xmlns:app="http://schemas.android.com/apk/res-auto"
+                        style="@style/menu_text_style"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:text="Leaderboard"
+                        app:textType="bold" />
+
+
+                </LinearLayout>
+            </com.balysv.materialripple.MaterialRippleLayout>
+
+            <com.balysv.materialripple.MaterialRippleLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:mrl_rippleAlpha="0.1"
+                app:mrl_rippleBackground="#FFFFFF"
+                app:mrl_rippleColor="#ffffff"
+                app:mrl_rippleDelayClick="true"
+                app:mrl_rippleDimension="0dp"
+                app:mrl_rippleDuration="50"
+                app:mrl_rippleFadeDuration="10"
+                app:mrl_rippleHover="true"
+                app:mrl_rippleInAdapter="false"
+                app:mrl_rippleOverlay="true"
+                app:mrl_ripplePersistent="false"
+                app:mrl_rippleRoundedCorners="0dp">
+
+                <LinearLayout
+                    android:id="@+id/aboutButton"
+                    style="@android:style/Widget.Button"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/profilecolor"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/about_icon" />
+
+                    <com.fragdeluxestats.customviews.TextStyleView xmlns:app="http://schemas.android.com/apk/res-auto"
+                        style="@style/menu_text_style"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:text="About"
+                        app:textType="bold" />
+
+
+                </LinearLayout>
+            </com.balysv.materialripple.MaterialRippleLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <com.balysv.materialripple.MaterialRippleLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:mrl_rippleAlpha="0.1"
+                app:mrl_rippleBackground="#FFFFFF"
+                app:mrl_rippleColor="#ffffff"
+                app:mrl_rippleDelayClick="true"
+                app:mrl_rippleDimension="0dp"
+                app:mrl_rippleDuration="50"
+                app:mrl_rippleFadeDuration="10"
+                app:mrl_rippleHover="true"
+                app:mrl_rippleInAdapter="false"
+                app:mrl_rippleOverlay="true"
+                app:mrl_ripplePersistent="false"
+                app:mrl_rippleRoundedCorners="0dp">
+
+            </com.balysv.materialripple.MaterialRippleLayout>
+
+        </LinearLayout>
+
+</LinearLayout>

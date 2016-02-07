@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.fragdeluxestats.customviews.MapView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="3dp"
+    card_view:cardCornerRadius="1dp"
+    card_view:cardElevation="2dp"
+    card_view:cardUseCompatPadding="true">
+
+    <com.balysv.materialripple.MaterialRippleLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:mrl_rippleAlpha="0.1"
+        app:mrl_rippleColor="#ffffff"
+        app:mrl_rippleDelayClick="true"
+        app:mrl_rippleDimension="0dp"
+        app:mrl_rippleDuration="50"
+        app:mrl_rippleFadeDuration="10"
+        app:mrl_rippleHover="true"
+        app:mrl_rippleInAdapter="false"
+        app:mrl_rippleOverlay="true"
+        app:mrl_ripplePersistent="false"
+        app:mrl_rippleRoundedCorners="0dp">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="250dp">
+
+            <ImageView
+                android:id="@+id/mapImage"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/de_cache"
+                android:scaleType="fitXY" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/shadedcolordark"
+                    android:orientation="horizontal"
+                    android:padding="20dp">
+
+                    <TableLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent">
+
+                        <TableRow
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical">
+
+
+                                <com.fragdeluxestats.customviews.TextStyleView xmlns:app="http://schemas.android.com/apk/res-auto"
+                                    android:id="@+id/mapName"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="2dp"
+                                    android:lines="2"
+                                    android:text="DE_MIRAGE"
+                                    android:textColor="@android:color/white"
+                                    android:textSize="12sp"
+                                    app:textType="bold" />
+                            </LinearLayout>
+
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="10dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical">
+
+                                <com.fragdeluxestats.customviews.TextStyleView
+                                    android:id="@+id/textView5"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Time Spent"
+                                    android:textColor="@android:color/white"
+                                    android:textSize="12sp"
+                                    app:textType="normal" />
+
+                                <com.fragdeluxestats.customviews.TextStyleView xmlns:app="http://schemas.android.com/apk/res-auto"
+                                    android:id="@+id/mapTime"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="2dp"
+                                    android:text="220h"
+                                    android:textColor="@android:color/white"
+                                    android:textSize="14sp"
+                                    app:textType="bold" />
+                            </LinearLayout>
+
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical">
+
+                                <com.fragdeluxestats.customviews.TextStyleView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Headshots"
+                                    android:textColor="@android:color/white"
+                                    android:textSize="12sp"
+                                    app:textType="normal" />
+
+                                <com.fragdeluxestats.customviews.TextStyleView xmlns:app="http://schemas.android.com/apk/res-auto"
+                                    android:id="@+id/mapHeadshot"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="2dp"
+                                    android:text="9896"
+                                    android:textColor="@android:color/white"
+                                    android:textSize="14sp"
+                                    app:textType="bold" />
+                            </LinearLayout>
+
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical">
+
+                                <com.fragdeluxestats.customviews.TextStyleView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Kills"
+                                    android:textColor="@android:color/white"
+                                    android:textSize="12sp"
+                                    app:textType="normal" />
+
+                                <com.fragdeluxestats.customviews.TextStyleView xmlns:app="http://schemas.android.com/apk/res-auto"
+                                    android:id="@+id/mapKills"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="2dp"
+                                    android:text="15%"
+                                    android:textColor="@android:color/white"
+                                    android:textSize="14sp"
+                                    app:textType="bold" />
+                            </LinearLayout>
+
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical">
+
+                                <com.fragdeluxestats.customviews.TextStyleView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Deaths"
+                                    android:textColor="@android:color/white"
+                                    android:textSize="12sp"
+                                    android:textStyle="italic"
+                                    app:textType="normal" />
+
+                                <com.fragdeluxestats.customviews.TextStyleView xmlns:app="http://schemas.android.com/apk/res-auto"
+                                    android:id="@+id/mapDeaths"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="2dp"
+                                    android:text="23,300"
+                                    android:textColor="@android:color/white"
+                                    android:textSize="14sp"
+                                    app:textType="bold" />
+                            </LinearLayout>
+
+                        </TableRow>
+                    </TableLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </FrameLayout>
+    </com.balysv.materialripple.MaterialRippleLayout>
+</com.fragdeluxestats.customviews.MapView>
+

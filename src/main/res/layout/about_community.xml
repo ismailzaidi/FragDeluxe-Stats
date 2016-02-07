@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/sideMenuButton"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <com.fragdeluxestats.customviews.TextStyleView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="HOW ABOUT SOME FUN FACTS ABOUT OUR COMMUNITY?"
+                app:textType="bold"
+                android:textColor="@android:color/white"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/profilecolor"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <com.fragdeluxestats.customviews.TextStyleView
+                        android:id="@+id/currentSteamMembers"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="639"
+                        android:textColor="@android:color/white"
+                        android:textSize="26sp"
+                        app:textType="bold"
+                        android:textStyle="bold" />
+
+                    <com.fragdeluxestats.customviews.TextStyleView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        app:textType="normal"
+                        android:text="@string/about_community_item_1"
+                        android:textColor="@android:color/white"
+                        android:textSize="10sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <com.fragdeluxestats.customviews.TextStyleView
+                        android:id="@+id/currentOnlineMembers"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="304"
+                        app:textType="bold"
+                        android:textColor="@android:color/white"
+                        android:textSize="26sp"
+                        android:textStyle="bold" />
+
+                    <com.fragdeluxestats.customviews.TextStyleView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        app:textType="normal"
+                        android:text="@string/about_community_item_2"
+                        android:textColor="@android:color/white"
+                        android:textSize="10sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/profilecolor"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <com.fragdeluxestats.customviews.TextStyleView
+                        android:id="@+id/currentOnlineAllMembers"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textColor="@android:color/white"
+                        app:textType="bold"
+                        android:textSize="26sp"
+                        android:textStyle="bold"
+                        android:text="66" />
+
+                    <com.fragdeluxestats.customviews.TextStyleView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        app:textType="normal"
+                        android:text="@string/about_community_item_3"
+                        android:textColor="@android:color/white"
+                        android:textSize="10sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <com.fragdeluxestats.customviews.TextStyleView
+                        android:id="@+id/possibleSlotsMembers"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textColor="@android:color/white"
+                        app:textType="normal"
+                        android:textSize="26sp"
+                        android:textStyle="bold"
+                        android:text="82" />
+
+                    <com.fragdeluxestats.customviews.TextStyleView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:text="@string/about_community_item_4"
+                        android:textColor="@android:color/white"
+                        app:textType="normal"
+                        android:textSize="10sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/sideMenuButton"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <com.fragdeluxestats.customviews.TextStyleView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="ABOUT SERVERS"
+                app:textType="bold"
+                android:textColor="@android:color/white"
+                android:textStyle="bold" />
+
+            <com.fragdeluxestats.customviews.TextStyleView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:padding="10dp"
+                app:textType="normal"
+                android:text="@string/about_community_subitem"
+                android:textColor="@android:color/white"
+                android:textStyle="normal" />
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

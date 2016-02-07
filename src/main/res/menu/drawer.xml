@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/actionHome"
+            android:icon="@drawable/home_icon_navigation"
+            android:title="@string/action_item_1" />
+        <item
+            android:id="@+id/actionServer"
+            android:icon="@drawable/server_icon_navigation"
+            android:title="@string/action_item_10" />
+        <item
+            android:id="@+id/actionCompare"
+            android:icon="@drawable/compare_icon_navigation"
+            android:title="@string/action_item_4" />
+        <item
+            android:id="@+id/actionLeaderboard"
+            android:icon="@drawable/trophy_icon_white_navigation"
+            android:title="@string/action_item_5" />
+        <item
+            android:id="@+id/actionSync"
+            android:icon="@drawable/refresh_icon_navigation"
+            android:title="@string/action_item_9" />
+        <item
+            android:id="@+id/actionSkin"
+            android:icon="@drawable/skin_icon"
+            android:title="@string/action_item_11" />
+        <item
+            android:id="@+id/actionAbout"
+            android:icon="@drawable/about_icon_navigation"
+            android:title="@string/action_item_6" />
+        <item
+            android:id="@+id/actionSupport"
+            android:icon="@drawable/support_icon_navigation"
+            android:title="@string/action_item_7" />
+        <item
+            android:id="@+id/actionLogout"
+            android:icon="@drawable/logout_icon_navigation"
+            android:title="@string/action_item_8" />
+    </group>
+</menu>

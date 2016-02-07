@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/secondryColor"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:adjustViewBounds="true"
+        android:src="@drawable/background_login" />
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="80dp"
+            android:orientation="vertical">
+
+            <AutoCompleteTextView
+                android:id="@+id/userIdEditText"
+                style="@style/EditTextfragdeluxe"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="Search User"
+                android:singleLine="true"
+                android:textColor="@android:color/white"
+                android:textColorHint="@android:color/white"
+                android:layout_marginBottom="10dp"
+                android:textCursorDrawable="@null"
+                android:textSize="10sp">
+                <requestFocus/>
+                </AutoCompleteTextView>
+
+            <!--<android.support.design.widget.TextInputLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:background="@android:color/transparent"-->
+            <!--android:textColorHint="@color/buttoncolor"-->
+            <!--app:hintTextAppearance="@style/TextLabel">-->
+            <com.balysv.materialripple.MaterialRippleLayout
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                app:mrl_rippleAlpha="0.1"
+                app:mrl_rippleColor="#ffffff"
+                app:mrl_rippleDelayClick="true"
+                app:mrl_rippleDimension="0dp"
+                app:mrl_rippleDuration="50"
+                app:mrl_rippleFadeDuration="10"
+                app:mrl_rippleHover="true"
+                app:mrl_rippleInAdapter="false"
+                app:mrl_rippleOverlay="true"
+                app:mrl_ripplePersistent="false"
+                app:mrl_rippleRoundedCorners="0dp">
+                <com.fragdeluxestats.customviews.TextStyleView
+                    android:id="@+id/loginButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/buttoncolor"
+                    android:gravity="center"
+                    android:padding="20dp"
+                    android:text="Find"
+                    android:textColor="@android:color/white"
+                    android:textSize="15sp"
+                    app:textType="normal" />
+            </com.balysv.materialripple.MaterialRippleLayout>
+            <com.fragdeluxestats.customviews.TextStyleView
+                android:id="@+id/tempSteamLogin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="@string/login_activity"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                app:textType="normal" />
+            <com.fragdeluxestats.customviews.TextStyleView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="By using our Application, you Agree to our Terms Of Use and Privacy Policy"
+                android:textColor="@color/profilecolor"
+                android:textSize="12sp"
+                app:textType="normal" />
+
+        </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,3 @@
+CHANGED,C:\Users\Yusuf\Desktop\FragDeluxeStats\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\fragdeluxestats\model\HTTPHandlers\MapAsyncTask$override.class
+CHANGED,C:\Users\Yusuf\Desktop\FragDeluxeStats\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\fragdeluxestats\model\DataHandler$override.class
+CHANGED,C:\Users\Yusuf\Desktop\FragDeluxeStats\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\android\tools\fd\runtime\AppPatchesLoaderImpl.class
